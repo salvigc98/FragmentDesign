@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpezarFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hola_salvi"
+       android:textAllCaps="true"
+       android:textSize="30sp"
+       android:textAlignment="center"
+       android:paddingTop="50dp"
+       android:fontFamily="@font/robotobold"
+       android:textColor="@android:color/holo_orange_dark"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="¡Que bien que estés aquí!"
+           android:textAllCaps="true"
+           android:textSize="20sp"
+           android:textAlignment="center"
+           android:paddingTop="250dp"
+           android:fontFamily="@font/robotobold"
+           android:textColor="@android:color/holo_orange_dark"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Ayúdanos a conocerte mejor. Así podremos hacer un plan de entrenamiento Premium para que logres tus metas"
+           android:textSize="15sp"
+           android:textAlignment="center"
+           android:paddingTop="30dp"
+           android:layout_marginHorizontal="40dp"
+           android:fontFamily="@font/robotoregular"
+           android:textColor="@android:color/holo_orange_dark"/>
+
+       <Button
+           android:id="@+id/btnPregunta1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/button"
+           android:layout_marginTop="70dp"
+           android:text="@string/empezar"
+           android:textColor="@android:color/holo_orange_dark"
+           android:fontFamily="@font/robotobold"
+           android:textSize="16sp"
+           android:layout_marginHorizontal="40dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="30dp"
+           android:layout_marginHorizontal="40dp"
+           android:gravity="center">
+
+           <com.github.abdularis.civ.CircleImageView
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/dicaprio"
+               app:strokeColor="@android:color/white"
+               app:strokeWidth="4px"/>
+
+           <com.github.abdularis.civ.CircleImageView
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_marginLeft="-10dp"
+               android:src="@drawable/tom_cruise"
+               app:strokeColor="@android:color/white"
+               app:strokeWidth="4px"/>
+
+           <com.github.abdularis.civ.CircleImageView
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_marginLeft="-10dp"
+               android:src="@drawable/tom_hanks"
+               app:strokeColor="@android:color/white"
+               app:strokeWidth="4px"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Únete a los 22.317 que ya usan los planes de entrenamiento"
+               android:textSize="14sp"
+               android:layout_marginLeft="20dp"
+               android:fontFamily="@font/robotoregular"
+               android:textColor="@android:color/holo_orange_dark"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanEntrenamientoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tu plan está listo"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginVertical="80dp"
+            android:src="@drawable/check"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hazte premium para empezar el plan"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <LinearLayout
+            android:clickable="true"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:backgroundTint="@android:color/holo_orange_dark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textAlignment="gravity"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/robotobold"
+                android:text="€2,33/semana"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:text="Suscripción de 1 mes"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="@drawable/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:backgroundTint="@android:color/white">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textAlignment="gravity"
+                    android:layout_marginTop="5dp"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/robotobold"
+                    android:text="€1,17/semana"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textAlignment="gravity"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="12sp"
+                    android:text="Suscripción de 12 meses"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:backgroundTint="@android:color/holo_orange_dark">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/robotobold"
+                    android:text="La mejor oferta"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

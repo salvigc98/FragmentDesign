@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pregunta1Fragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Entreno Para:"
+           android:textAllCaps="true"
+           android:textSize="30sp"
+           android:layout_marginHorizontal="30dp"
+           android:textAlignment="center"
+           android:fontFamily="@font/robotobold"
+           android:textColor="@android:color/holo_orange_dark"/>
+
+       <Button
+           android:id="@+id/btnPregunta2A"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/button"
+           android:layout_marginTop="20dp"
+           android:text="Adelgazar"
+           android:textColor="@android:color/holo_orange_dark"
+           android:fontFamily="@font/robotobold"
+           android:textSize="16sp"
+           android:layout_marginHorizontal="40dp"/>
+
+       <Button
+           android:id="@+id/btnPregunta2B"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/button"
+           android:layout_marginTop="20dp"
+           android:text="ponerme en forma"
+           android:textColor="@android:color/holo_orange_dark"
+           android:fontFamily="@font/robotobold"
+           android:textSize="16sp"
+           android:layout_marginHorizontal="40dp"/>
+   </LinearLayout>
+
+</FrameLayout>
