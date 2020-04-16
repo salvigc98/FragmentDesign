@@ -12,6 +12,7 @@
         android:src="@drawable/background_sport"
         android:scaleType="centerCrop"/>
 
+
     <FrameLayout
         android:id="@+id/mainContainer"
         android:layout_width="match_parent"
